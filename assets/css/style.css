@@ -186,6 +186,10 @@ nav{
     color: var(--text-color-second);
     margin-block: 20px;
 }
+/* .featured-lottie{
+	margin-top: 50px;
+} */
+
 .typedText{
     text-transform: capitalize;
     color: var(--text-color-third);
@@ -208,7 +212,7 @@ nav{
 }
 .social_icons{
     display: flex;
-    margin-top: 5em;
+    margin-top: 2em;
     gap: 30px;
 }
 .icon{
@@ -576,6 +580,9 @@ footer{
         justify-content: center;
         height: 100vh;
     }
+	/* .featured-lottie{
+		margin-top: 200px;
+	} */
     .featured-text{
         width: 100%;
         order: 2;
@@ -591,7 +598,7 @@ footer{
         justify-content: center;
         min-height: 150px;
         width: 100%;
-        margin-top: 65px;
+        margin-top: 100px;
     }
     .image, .image img{
         width: 150px;
@@ -608,6 +615,11 @@ footer{
         justify-content: center;
         width: 100%;
     }
+	.top-header h1{
+		font-weight: 500;
+		color: var(--text-color-second);
+		margin-bottom: 100px;
+	}
     .about-info, .contact-info{
         width: 100%;
     }
